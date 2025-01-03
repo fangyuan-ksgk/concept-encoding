@@ -1,6 +1,6 @@
 # Concept-Encoding
 
-An unofficial implementation of concept encoding experiments based on the paper ["Emergence of Abstractions: Concept Encoding and Decoding Mechanism for In-Context Learning in Transformers"](paper_link).
+An unofficial implementation of concept encoding experiments based on the paper ["Emergence of Abstractions: Concept Encoding and Decoding Mechanism for In-Context Learning in Transformers"](https://www.arxiv.org/abs/2412.12276).
 
 ![concept_decodability](img/vis.png)
 
