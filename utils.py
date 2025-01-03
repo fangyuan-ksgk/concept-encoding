@@ -105,6 +105,8 @@ def visualize_concept_embeddings(X, y, title="Concept Embeddings", figsize=(10, 
     plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.title(title)
     plt.tight_layout()
+    plt.savefig('concept_embeddings.png')  # Save to file
+    plt.close()  # Clean up
     return plt
 
 def plot_multiple_shots(model, tokenizer, concept_examples_list, layer_idx, 
@@ -148,4 +150,6 @@ def plot_multiple_shots(model, tokenizer, concept_examples_list, layer_idx,
             axes[idx].legend(bbox_to_anchor=(1.05, 1), loc='upper left')
     
     plt.tight_layout()
+    plt.savefig('multiple_shots.png')  # Save to file
+    plt.close()  # Clean up
     return plt
