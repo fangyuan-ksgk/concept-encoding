@@ -2,7 +2,7 @@
 
 An unofficial implementation of concept encoding experiments based on the paper ["Emergence of Abstractions: Concept Encoding and Decoding Mechanism for In-Context Learning in Transformers"](paper_link).
 
-![concept_decodability](img/concept_decodability.png)
+![concept_decodability](img/vis.png)
 
 ## Overview
 
